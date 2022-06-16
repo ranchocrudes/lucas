@@ -1,0 +1,22 @@
+import { StyleSheet } from "react-native";
+
+import { theme } from "../../global/styles/theme";
+
+export const themes = StyleSheet.create({
+    container:{
+      	width: 300,
+      	height: 67,
+		left:30,
+      	alignItems: 'center',
+      	justifyContent: 'center',
+      	borderRadius: 10,
+      	backgroundColor: theme.colors.secondary100,
+      	borderColor: theme.colors.secondary30,
+     	borderWidth: 1
+    },
+    textContainer:{
+    	fontFamily: theme.fonts.text500,
+    	fontSize: 20,
+    	color: theme.colors.secondary10
+    }
+});
